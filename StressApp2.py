@@ -10,7 +10,7 @@ import joblib
 MODEL_FILE = "stress_model.pkl"
 SCALER_FILE = "scaler.pkl"
 DATA_FILE = 'stress_detection_IT_professionals_dataset.csv'
-LOGO_FILE = "Logo.png"  # Ensure Logo.png is in the same directory
+LOGO_FILE = "Logo.webp"  # Ensure Logo.png is in the same directory
 
 # Load dataset
 data = pd.read_csv(DATA_FILE)
