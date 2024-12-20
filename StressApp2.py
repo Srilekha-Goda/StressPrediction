@@ -127,7 +127,7 @@ with col2:
     st.markdown("<h1 style='text-align: left; font-family: Playfair Display; color: #2F4D40;'>Stress Level Tracker</h1>", unsafe_allow_html=True)
 
 # Sidebar for User Details
-st.sidebar.image(LOGO_FILE, use_column_width=True)
+st.sidebar.image(LOGO_FILE, use_container_width=True)
 st.sidebar.header("Welcome")
 st.sidebar.markdown("Track and manage your stress levels effortlessly!")
 name = st.sidebar.text_input("Enter your name")
